@@ -1,14 +1,14 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: CC Test
+description: Description goes here
+title: "Collaboration Cycle for [Product Name] "
+labels: ["collab-cycle-review", "collaboration-cycle", "governance-team"]
 assignees:
-  - octocat
+  - briandeconinck
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Here are some instructions that can be added to the form. This text won't be included in the issue that's generated. You can use **Markdown**.
   - type: input
     id: contact
     attributes:
