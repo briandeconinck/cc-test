@@ -5,14 +5,6 @@ labels: ["collab-cycle-review", "collaboration-cycle", "governance-team"]
 assignees:
   - briandeconinck 
 body:
-  - type: textarea
-    id: front-end-information
-    attributes:
-      label: Other front-end information
-      description: 
-      placeholder: 
-    validations:
-      required: true
   - type: markdown
     value: "## Kickoff questions"
   - type: markdown
