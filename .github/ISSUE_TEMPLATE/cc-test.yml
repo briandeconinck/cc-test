@@ -6,7 +6,8 @@ assignees:
   - briandeconinck 
 body:
   - type: markdown
-    value: "## Kickoff questions"
+    attributes:
+      value: "## Kickoff questions"
   - type: markdown
     attributes:
       value: |
