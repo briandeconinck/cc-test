@@ -8,6 +8,22 @@ labels:
 assignees:
   - briandeconinck 
 body:
+  - type: markdown
+    value: "# Collaboration Cycle"
+  - type: markdown
+    attributes:
+      value: |
+        We can add instructions or welcome messages, and use Markdown. But note that this text will **not** be added to the issue that's generated from this form.
+  - type: markdown
+    value: "## VFS product information"
+  - type: input
+    id: product-team
+    attributes:
+      label: VFS Team Name
+      description: 
+      placeholder: 
+    validations:
+      required: true
   - type: input
     id: product-name
     attributes:
@@ -16,3 +32,137 @@ body:
       placeholder: 
     validations:
       required: true
+  - type: input
+    id: feature-name
+    attributes:
+      label: Feature name
+      description: If applicable
+      placeholder: 
+    validations:
+      required: false
+  - type: input
+    id: product-label
+    attributes:
+      label: GitHub label for product
+      description: Enter a label from the va.gov-team repo
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: feature-label
+    attributes:
+      label: GitHub label for feature
+      description: If applicable
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: start-date
+    attributes:
+      label: Start date of enhancement
+      description: 
+      placeholder: 
+    validations:
+      required: true
+   - type: input
+    id: feature-launch-date
+    attributes:
+      label: Feature launch date
+      description: 
+      placeholder: 
+    validations:
+      required: false
+  - type: input
+    id: 508-request
+    attributes:
+      label: VA 508 Office audit request ticket number
+      description: 
+      placeholder: 
+    validations:
+      required: false
+  - type: input
+    id: production-url
+    attributes:
+      label: Production URL
+      description: 
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: front-end-information
+    attributes:
+      label: Other front-end information
+      description: 
+      placeholder: 
+    validations:
+      required: true
+  - type: markdown
+    value: "## Kickoff questions"
+  - type: markdown
+    attributes:
+      value: |
+        Please refer to the guidance in [Getting Started with the Collaboration Cycle](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Getting-started.1760493650.html) for detailed information and examples for the below questions.
+  - type: dropdown
+    id: visible-changes
+    attributes:
+      label: Will your work result in visible changes to the user experience?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+  - type: dropdown
+    id: user-research
+    attributes:
+      label: Are you doing research with VA.gov users?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+  - type: checkboxes
+    id: changes-to
+    description: For tools and applications, take into account if any static page entry points will need updates.
+    attributes:
+      label: Will your work involve changes to: (select all that apply)
+      options:
+        - label: Tools and applications
+        - label: Static pages
+    validations:
+      required: true
+  - type: dropdown
+    id: analytics-domo
+    attributes:
+      label: Does your product or feature have Google Analytics tracking and a KPI dashboard in Domo?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+  - type: dropdown
+    id: other-analytics
+    attributes:
+      label: If yes, do you need to capture any other analytics or metrics in addition to what you're currently tracking?
+      options:
+        - Yes
+        - No
+    validations:
+      required: false
+  - type: dropdown
+    id: business-owner
+    attributes:
+      label: Who is the VA business owner for this product?
+      options:
+        - VHA (Veterans Health Administration)
+        - VBA (Veterans Benefits Administration)
+        - NCA (National Cemetery Administration)
+        - VACO (Veterans Affairs Central Office)
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: other-business-owner
+    attributes:
+      label: (If Other) Please specify the VA business owner
+    validations:
+      required: false
