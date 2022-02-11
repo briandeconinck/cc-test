@@ -5,6 +5,100 @@ labels: ["collab-cycle-review", "collaboration-cycle", "governance-team"]
 assignees:
   - briandeconinck 
 body:
+  - type: markdown
+    value: "# Collaboration Cycle"
+  - type: markdown
+    attributes:
+      value: |
+        We can add instructions or welcome messages, and use Markdown. But note that this text will **not** be added to the issue that's generated from this form.
+  - type: markdown
+    value: "## VFS product information"
+  - type: input
+    id: product-team
+    attributes:
+      label: VFS Team Name
+      description: 
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: product-name
+    attributes:
+      label: Product name
+      description: 
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: feature-name
+    attributes:
+      label: Feature name
+      description: If applicable
+      placeholder: 
+    validations:
+      required: false
+  - type: input
+    id: product-label
+    attributes:
+      label: GitHub label for product
+      description: Enter a label from the va.gov-team repo
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: feature-label
+    attributes:
+      label: GitHub label for feature
+      description: If applicable
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: start-date
+    attributes:
+      label: Start date of enhancement
+      description: 
+      placeholder: 
+    validations:
+      required: true
+   - type: input
+    id: feature-launch-date
+    attributes:
+      label: Feature launch date
+      description: 
+      placeholder: 
+    validations:
+      required: false
+  - type: input
+    id: 508-request
+    attributes:
+      label: VA 508 Office audit request ticket number
+      description: 
+      placeholder: 
+    validations:
+      required: false
+  - type: input
+    id: production-url
+    attributes:
+      label: Production URL
+      description: 
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: front-end-information
+    attributes:
+      label: Other front-end information
+      description: 
+      placeholder: 
+    validations:
+      required: true
+  - type: markdown
+    value: "## Kickoff questions"
+  - type: markdown
+    attributes:
+      value: |
+        Please refer to the guidance in [Getting Started with the Collaboration Cycle](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Getting-started.1760493650.html) for detailed information and examples for the below questions.
   - type: dropdown
     id: visible-changes
     attributes:
