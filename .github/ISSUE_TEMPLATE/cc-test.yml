@@ -6,6 +6,34 @@ assignees:
   - briandeconinck 
 body:
   - type: dropdown
+    id: visible-changes
+    attributes:
+      label: Will your work result in visible changes to the user experience?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+  - type: dropdown
+    id: user-research
+    attributes:
+      label: Are you doing research with VA.gov users?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+  - type: checkboxes
+    id: changes-to
+    description: For tools and applications, take into account if any static page entry points will need updates.
+    attributes:
+      label: Will your work involve changes to: (select all that apply)
+      options:
+        - label: Tools and applications
+        - label: Static pages
+    validations:
+      required: true
+  - type: dropdown
     id: analytics-domo
     attributes:
       label: Does your product or feature have Google Analytics tracking and a KPI dashboard in Domo?
