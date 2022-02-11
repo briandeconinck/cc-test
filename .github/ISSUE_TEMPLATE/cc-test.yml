@@ -5,10 +5,13 @@ labels: ["collab-cycle-review", "collaboration-cycle", "governance-team"]
 assignees:
   - briandeconinck 
 body:
+  - type: markdown
+    attributes:
+      value: "## VFS product information"
   - type: input
     id: product-team
     attributes:
-      label: VFS Team Name
+      label: VFS team name
       description: 
       placeholder: 
     validations:
