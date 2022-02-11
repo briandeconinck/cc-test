@@ -10,9 +10,6 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: "# Collaboration Cycle"
-  - type: markdown
-    attributes:
       value: |
         We can add instructions or welcome messages, and use Markdown. But note that this text will **not** be added to the issue that's generated from this form.
   - type: markdown
