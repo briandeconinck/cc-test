@@ -5,36 +5,28 @@ labels: ["collab-cycle-review", "collaboration-cycle", "governance-team"]
 assignees:
   - briandeconinck 
 body:
-   - type: input
+  - type: input
     id: feature-launch-date
     attributes:
       label: Feature launch date
-      description: 
-      placeholder: 
     validations:
       required: false
   - type: input
     id: 508-request
     attributes:
       label: VA 508 Office audit request ticket number
-      description: 
-      placeholder: 
     validations:
       required: false
   - type: input
     id: production-url
     attributes:
       label: Production URL
-      description: 
-      placeholder: 
     validations:
       required: true
   - type: textarea
     id: front-end-information
     attributes:
       label: Other front-end information
-      description: 
-      placeholder: 
     validations:
       required: false
   - type: markdown
