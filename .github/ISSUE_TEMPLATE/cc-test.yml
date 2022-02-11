@@ -5,6 +5,37 @@ labels: ["collab-cycle-review", "collaboration-cycle", "governance-team"]
 assignees:
   - briandeconinck 
 body:
+  - type: dropdown
+    id: analytics-domo
+    attributes:
+      label: Does your product or feature have Google Analytics tracking and a KPI dashboard in Domo?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+  - type: dropdown
+    id: other-analytics
+    attributes:
+      label: If yes, do you need to capture any other analytics or metrics in addition to what you're currently tracking?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: false
+  - type: dropdown
+    id: business-owner
+    attributes:
+      label: Who is the VA business owner for this product?
+      options:
+        - VHA (Veterans Health Administration)
+        - VBA (Veterans Benefits Administration)
+        - NCA (National Cemetery Administration)
+        - VACO (Veterans Affairs Central Office)
+        - Other
+    validations:
+      required: true
+
   - type: input
     id: other-business-owner
     attributes:
