@@ -9,7 +9,8 @@ assignees:
   - briandeconinck 
 body:
   - type: markdown
-    value: "# Collaboration Cycle"
+    attributes:
+      value: "# Collaboration Cycle"
   - type: markdown
     attributes:
       value: |
