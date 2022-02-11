@@ -23,14 +23,17 @@ body:
         - "No"
     validations:
       required: true
- - type: checkboxes
+  - type: dropdown
     id: changes-to
-    description: For tools and applications, take into account if any static page entry points will need updates.
     attributes:
-      label: "Will your work involve changes to: (select all that apply)"
+      label: Will your work involve changes to...
+      description: For tools and applications, take into account if any static page entry points will need updates.
       options:
-        - label: Tools and applications
-        - label: Static pages
+        - Tools and applications
+        - Static pages
+        - Both
+    validations:
+      required: true
   - type: dropdown
     id: analytics-domo
     attributes:
