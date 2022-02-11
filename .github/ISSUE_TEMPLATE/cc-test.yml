@@ -6,6 +6,8 @@ assignees:
   - briandeconinck 
 body:
   - type: markdown
+    value: "## Kickoff questions"
+  - type: markdown
     attributes:
       value: |
         Please refer to the guidance in [Getting Started with the Collaboration Cycle](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Getting-started.1760493650.html) for detailed information and examples for the below questions.
