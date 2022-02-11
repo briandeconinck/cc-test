@@ -102,8 +102,8 @@ body:
     attributes:
       label: Will your work result in visible changes to the user experience?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
   - type: dropdown
@@ -111,8 +111,8 @@ body:
     attributes:
       label: Are you doing research with VA.gov users?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
   - type: checkboxes
@@ -130,8 +130,8 @@ body:
     attributes:
       label: Does your product or feature have Google Analytics tracking and a KPI dashboard in Domo?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
   - type: dropdown
@@ -139,8 +139,8 @@ body:
     attributes:
       label: If yes, do you need to capture any other analytics or metrics in addition to what you're currently tracking?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: false
   - type: dropdown
