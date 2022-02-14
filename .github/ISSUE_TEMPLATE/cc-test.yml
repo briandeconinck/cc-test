@@ -146,10 +146,25 @@ body:
         - Other
     validations:
       required: true
-
   - type: input
     id: other-business-owner
     attributes:
       label: (If Other) Please specify the VA business owner
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: "## Artifacts"
+  - type: markdown
+    attributes:
+      value: |
+        Please provide any artifacts that you may already have available. More artifacts, or updates to these artifacts may be requested as you go through the Collaboration Cycle touchpoints.
+  - type: input
+    id: product-outline
+    attributes:
+      label: Product outline
+      description: Please enter a URL for your product outline. See the [product outline template](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/product-outline-template.md).
+    
+    
+    
+    
