@@ -164,7 +164,28 @@ body:
     attributes:
       label: Product outline
       description: Please enter a URL for your product outline. See the [product outline template](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/product-outline-template.md).
-    
-    
+    validations:
+      required: true
+  - type: input
+    id: whiteboard-sketch
+    attributes:
+      label: Whiteboard sketch or other lo-fi prototypes or wireframes
+      description: Please provide if available. If a Design Intent touchpoint is recommended for your product, this will be required before that meeting.
+    validations:
+      required: false
+   - type: input
+    id: user-flow
+    attributes:
+      label: User flow
+      description: Please provide if available. If a Design Intent touchpoint is recommended for your product, this will be required before that meeting.
+    validations:
+      required: false
+  - type: textarea
+    id: other-artifacts
+    attributes:
+      label: Other artifacts
+      description: If you have any other artifacts available now, please provide links and descriptions here.
+    validations:
+      required: false
     
     
