@@ -180,12 +180,3 @@ body:
       description: Please provide if available. If a Design Intent touchpoint is recommended for your product, this will be required before that meeting.
     validations:
       required: false
-  - type: textarea
-    id: other-artifacts
-    attributes:
-      label: Other artifacts
-      description: If you have any other artifacts available now, please provide links and descriptions here.
-    validations:
-      required: false
-    
-    
