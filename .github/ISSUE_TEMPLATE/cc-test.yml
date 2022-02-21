@@ -49,7 +49,7 @@ body:
       label: GitHub label for feature
       description: If applicable
     validations:
-      required: true
+      required: false
   - type: input
     id: start-date
     attributes:
