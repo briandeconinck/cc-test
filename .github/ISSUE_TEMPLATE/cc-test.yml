@@ -63,17 +63,11 @@ body:
     validations:
       required: false
   - type: input
-    id: 508-request
-    attributes:
-      label: VA 508 Office audit request ticket number
-    validations:
-      required: false
-  - type: input
     id: production-url
     attributes:
       label: Production URL
     validations:
-      required: true
+      required: false
   - type: textarea
     id: front-end-information
     attributes:
