@@ -111,3 +111,7 @@ Update this section with artifacts provided at the Collaboration Cycle kickoff.
 - [ ] Product outline <!-- Product outline template: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/product-outline-template.md --> 
   
 </details>
+
+## Collaboration Cycle touchpoints
+
+This section will be updated after a review of your responses to the kickoff questions. You will be notified when Collaboration Cycle touchpoints are recommended.
