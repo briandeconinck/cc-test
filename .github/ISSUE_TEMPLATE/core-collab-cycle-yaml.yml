@@ -60,24 +60,6 @@ body:
       label: Start date of enhancement
     validations:
       required: true
-  - type: input
-    id: feature-launch-date
-    attributes:
-      label: Feature launch date
-    validations:
-      required: false
-  - type: input
-    id: production-url
-    attributes:
-      label: Production URL
-    validations:
-      required: false
-  - type: textarea
-    id: front-end-information
-    attributes:
-      label: Other front-end information
-    validations:
-      required: false
   - type: markdown
     attributes:
       value: "## Kickoff questions"
@@ -153,10 +135,6 @@ body:
   - type: markdown
     attributes:
       value: "## Artifacts"
-  - type: markdown
-    attributes:
-      value: |
-        Please provide any artifacts that you may already have available. More artifacts, or updates to these artifacts may be requested as you go through the Collaboration Cycle touchpoints.
   - type: input
     id: product-outline
     attributes:
@@ -164,24 +142,3 @@ body:
       description: Please enter a URL for your product outline. See the [product outline template](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/product-outline-template.md).
     validations:
       required: true
-  - type: input
-    id: whiteboard-sketch
-    attributes:
-      label: Whiteboard sketch or other lo-fi prototypes or wireframes
-      description: Please provide if available. If a Design Intent touchpoint is recommended for your product, this will be required before that meeting.
-    validations:
-      required: false
-  - type: input
-    id: user-flow
-    attributes:
-      label: User flow
-      description: Please provide if available. If a Design Intent touchpoint is recommended for your product, this will be required before that meeting.
-    validations:
-      required: false
-  - type: textarea
-    id: other-artifacts
-    attributes:
-      label: Other artifacts
-      description: If you have any other artifacts available now, please provide links and descriptions here.
-    validations:
-      required: false
