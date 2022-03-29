@@ -22,7 +22,6 @@ assignees: briandeconinck
 Skip to...
 - [VFS product information](#vfs-product-information)
 - [Kickoff questions](#kickoff-questions)
-- [Artifacts](#artifacts)
 - [Collaboration Cycle touchpoints](#collaboration-cycle-touchpoints)
 
 ## VFS product information
@@ -96,21 +95,12 @@ Examples of **research with VA.gov users** include:
 - [ ] NCA (National Cemetery Administration)
 - [ ] VACO (Veterans Affairs Central Office)
 - [ ] Other. Please specify: ____________
+    
 </details>
- 
-## Artifacts
 
-### Kickoff
-Update this section with artifacts provided at the Collaboration Cycle kickoff.
-
-<details open>
-  <summary>Toggle kickoff artifacts</summary>
-
-#### Product artifacts
+### Kickoff artifacts
   
 - [ ] Product outline <!-- Product outline template: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/product-outline-template.md --> 
-  
-</details>
 
 ## Collaboration Cycle touchpoints
 
