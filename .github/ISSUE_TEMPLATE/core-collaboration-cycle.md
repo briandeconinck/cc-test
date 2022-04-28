@@ -9,15 +9,15 @@ assignees: briandeconinck
 
 # Collaboration Cycle for [Team Name, Product Name, Feature Name]
 
-**VFS Product Manager**
+  **VFS Product Manager**
 
-- [ ] Create this issue and notify the Collaboration Cycle team of this ticket in the in #vfs-platform-support ([see Slack Workflow (User guide](https://depo-platform-documentation.scrollhelp.site/support/Getting-help-from-the-Platform-in-Slack.1439138197.html)).  
-- [ ] Complete the **[VFS product information](#vfs-product-information)** and **[kickoff questions](#kickoff-questions)** sections, and attach any **[artifacts](#artifacts)** you have available.
+    - [ ] Create this issue and notify the Collaboration Cycle team of this ticket in the in #vfs-platform-support ([see Slack Workflow (User guide](https://depo-platform-documentation.scrollhelp.site/support/Getting-help-from-the-Platform-in-Slack.1439138197.html)).  
+    - [ ] Complete the **[VFS product information](#vfs-product-information)** and **[kickoff questions](#kickoff-questions)** sections, and attach any **[artifacts](#artifacts)** you have available.
 
-**Platform**
+  **Platform**
 
-- [ ] Review the responses and update the ticket with recommended touchpoints and practice area involvement.
-- [ ] Add project to the [Platform Collaboration Point Tracker](https://docs.google.com/spreadsheets/d/1OgPyEvUlNF6EnaYMFAXJkV6FKOvZnlPnbOQ2fAJ7W7A/edit#gid=266151061).
+    - [ ] Review the responses and update the ticket with recommended touchpoints and practice area involvement.
+    - [ ] Add project to the [Platform Collaboration Point Tracker](https://docs.google.com/spreadsheets/d/1OgPyEvUlNF6EnaYMFAXJkV6FKOvZnlPnbOQ2fAJ7W7A/edit#gid=266151061).
 
 Skip to...
 - [VFS product information](#vfs-product-information)
