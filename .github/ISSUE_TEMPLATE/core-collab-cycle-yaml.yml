@@ -124,19 +124,13 @@ body:
     attributes:
       label: Who is the VA business owner for this product?
       options:
-        - VHA (Veterans Health Administration)
-        - VBA (Veterans Benefits Administration)
-        - NCA (National Cemetery Administration)
-        - VACO (Veterans Affairs Central Office)
-        - Other
+        - "VHA (Veterans Health Administration)"
+        - "VBA (Veterans Benefits Administration)"
+        - "NCA (National Cemetery Administration)"
+        - "VACO (Veterans Affairs Central Office)"
+        - "Other/Unsure (please explain in the comments after submission)"
     validations:
       required: true
-  - type: input
-    id: other-business-owner
-    attributes:
-      label: (If Other) Please specify the VA business owner
-    validations:
-      required: false
   - type: markdown
     attributes:
       value: "## Artifacts"
