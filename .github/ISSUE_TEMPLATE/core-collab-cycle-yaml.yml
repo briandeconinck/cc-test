@@ -74,6 +74,7 @@ body:
       options:
         - "Yes"
         - "No"
+        - "Other/Unsure (please explain in the comments after submission)"
     validations:
       required: true
   - type: dropdown
@@ -83,6 +84,7 @@ body:
       options:
         - "Yes"
         - "No"
+        - "Other/Unsure (please explain in the comments after submission)"
     validations:
       required: true
   - type: dropdown
@@ -91,9 +93,10 @@ body:
       label: Will your work involve changes to...
       description: For tools and applications, take into account if any static page entry points will need updates.
       options:
-        - Tools and applications
-        - Static pages
-        - Both
+        - "Tools and applications"
+        - "Static pages"
+        - "Both"
+        - "Other/Unsure (please explain in the comments after submission)"
     validations:
       required: true
   - type: dropdown
@@ -103,6 +106,7 @@ body:
       options:
         - "Yes"
         - "No"
+        - "Other/Unsure (please explain in the comments after submission)"
     validations:
       required: true
   - type: dropdown
@@ -112,6 +116,7 @@ body:
       options:
         - "Yes"
         - "No"
+        - "Other/Unsure (please explain in the comments after submission)"
     validations:
       required: false
   - type: dropdown
