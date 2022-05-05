@@ -11,7 +11,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        Fields marked with an asterisk (<span style="color: rgb(207,34,46);">*</span>) are required.
+        The [Collaboration Cycle](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/) is where teams who are building products on VA.gov get feedback and guidance on their product to ensure it meets VA.gov experience standards for design, content, accessibility, information architecture, and quality assurance. Teams engage with the Collaboration Cycle throughout their product’s lifecycle.
+  - type: markdown
+    attributes:
+      value: |
+      Before engaging with the Collaboration Cycle, please review the guidance and questions below to help Platform determine what level of support, which practice areas, and which touchpoints are needed for your work. (Learn more about the [Collaboration Cycle kickoff](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Getting-started.1760493650.html).) **Fields marked with an asterisk (*) are required.**
   - type: markdown
     attributes:
       value: "## VFS product information"
