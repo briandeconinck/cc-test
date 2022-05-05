@@ -11,7 +11,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        We can add instructions or welcome messages, and use Markdown. But note that this text will **not** be added to the issue that's generated from this form.
+        Fields marked with an asterisk (<span style="color: rgb(207,34,46);">*</span>) are required.
   - type: markdown
     attributes:
       value: "## VFS product information"
