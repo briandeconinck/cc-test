@@ -15,7 +15,7 @@ body:
   - type: markdown
     attributes:
       value: |
-      Before engaging with the Collaboration Cycle, please review the guidance and questions below to help Platform determine what level of support, which practice areas, and which touchpoints are needed for your work. (Learn more about the [Collaboration Cycle kickoff](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Getting-started.1760493650.html).) **Fields marked with an asterisk (*) are required.**
+        Before engaging with the Collaboration Cycle, please review the guidance and questions below to help Platform determine what level of support, which practice areas, and which touchpoints are needed for your work. (Learn more about the [Collaboration Cycle kickoff](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Getting-started.1760493650.html).) **Fields marked with an asterisk (*) are required.**
   - type: markdown
     attributes:
       value: "## VFS product information"
