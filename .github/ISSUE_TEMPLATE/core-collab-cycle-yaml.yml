@@ -23,10 +23,6 @@ body:
   - type: markdown
     attributes:
       value: "## VFS product information"
-  - type: markdown
-    attributes:
-      value: |
-        Note: Some product information may not be available at this time. Please answer as many questions as possible as completely as possible.
   - type: input
     id: product-team
     attributes:
@@ -65,7 +61,7 @@ body:
   - type: input
     id: start-date
     attributes:
-      label: Start date of enhancement
+      label: When did/will you start working on this feature?
     validations:
       required: true
   - type: markdown
