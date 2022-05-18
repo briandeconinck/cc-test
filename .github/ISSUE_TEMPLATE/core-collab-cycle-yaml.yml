@@ -69,6 +69,9 @@ body:
       value: "## Kickoff questions"
   - type: markdown
     attributes:
+      value: "<details open><summary>Toggle kickoff questions</summary>"
+  - type: markdown
+    attributes:
       value: |
         Please refer to the guidance in [Collaboration Cycle Kickoff](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Getting-started.1760493650.html) for detailed information and examples for the below questions.
   - type: dropdown
@@ -122,6 +125,9 @@ body:
         - "Unsure"
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: "</details>"
   - type: markdown
     attributes:
       value: "## Artifacts"
