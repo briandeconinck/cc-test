@@ -132,10 +132,3 @@ body:
       description: Please enter a URL for your product outline. See the [product outline template](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/product-management/product-outline-template.md).
     validations:
       required: true
-  - type: textarea
-    id: additional-artifacts
-    attributes:
-      label: Additional artifacts
-      description: If you have any other artifacts ready to share, please provide links and descriptions.
-    validations:
-      required: false
