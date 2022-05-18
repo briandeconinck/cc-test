@@ -138,11 +138,8 @@ body:
   - type: checkboxes
     id: notify-slack
     attributes:
-      label: After submission, notify the Collaboration Cycle team of this ticket in the in `#vfs-platform-support`.
+      label: After submission, notify the Collaboration Cycle team of this ticket in the in #vfs-platform-support.
       description: See ["Getting help from the Platform in Slack"](https://depo-platform-documentation.scrollhelp.site/support/Getting-help-from-the-Platform-in-Slack.1439138197.html).
       options:
-        - label: I acknowledge that I must notify `#vfs-platform-support`.
+        - label: I acknowledge that I must notify #vfs-platform-support.
           required: true
-  - type: markdown
-    attributes:
-      value: "The Collaboration Cycle team will review your responses and follow up with recommended touchpoints."
