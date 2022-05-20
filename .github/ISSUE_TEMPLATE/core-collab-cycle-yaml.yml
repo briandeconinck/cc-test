@@ -11,7 +11,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        The [Collaboration Cycle](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/) is where teams who are building products on VA.gov get feedback and guidance on their product to ensure it meets VA.gov experience standard. Teams engage with the Collaboration Cycle throughout their product’s lifecycle.
+        The [Collaboration Cycle](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/) is where teams who are building products on VA.gov get feedback and guidance on their product/feature to ensure it meets VA.gov experience standard. Teams engage with the Collaboration Cycle throughout their product’s/feature's lifecycle.
   - type: markdown
     attributes:
       value: |
