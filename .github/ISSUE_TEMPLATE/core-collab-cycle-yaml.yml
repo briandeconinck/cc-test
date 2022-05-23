@@ -11,7 +11,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        The [Collaboration Cycle](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/) is where teams who are building products on VA.gov get feedback and guidance on their product/feature to ensure it meets VA.gov experience standard. Teams engage with the Collaboration Cycle throughout their product’s/feature's lifecycle.
+        The [Collaboration Cycle](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/) is where teams who are building products on VA.gov get feedback and guidance on their product/feature to ensure it meets VA.gov experience standards. Teams engage with the Collaboration Cycle throughout their product’s/feature's lifecycle.
   - type: markdown
     attributes:
       value: |
@@ -41,21 +41,20 @@ body:
     id: feature-name
     attributes:
       label: Feature name
-      description: If applicable
     validations:
-      required: false
+      required: true
   - type: input
     id: product-label
     attributes:
       label: GitHub label for product
-      description: Enter a label from the va.gov-team repo
+      description: Enter a label from the va.gov-team repo.
     validations:
       required: true
   - type: input
     id: feature-label
     attributes:
       label: GitHub label for feature
-      description: If applicable
+      description: Enter a label from the va.gov-team repo, if applicable.
     validations:
       required: false
   - type: input
@@ -138,7 +137,7 @@ body:
   - type: checkboxes
     id: notify-slack
     attributes:
-      label: Notify the Collaboration Cycle team of this ticket in the in `#vfs-platform-support`.
+      label: Notify the Collaboration Cycle team of this ticket in the `#vfs-platform-support` Slack channel.
       description: See ["Getting help from the Platform in Slack"](https://depo-platform-documentation.scrollhelp.site/support/Getting-help-from-the-Platform-in-Slack.1439138197.html).
       options:
         - label: I acknowledge that I must notify \#vfs-platform-support after submitting this issue.
